@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeevandhara Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <button onclick="logout()" class="logout-btn">
+            Logout
+        </button>
+
+        <div class="hero">
+
+            <h1>🌾 Jeevandhara Dashboard</h1>
+
+            <p>
+                Smart Government Scheme Recommendation System
+            </p>
+
+        </div>
+
+        <div id="stats"></div>
+
+        <hr>
+
+        <h2>Eligible Schemes</h2>
+
+        <div id="schemes"></div>
+
+        <hr>
+
+        <div class="ai-section">
+
+            <h2>🤖 AI Assistant</h2>
+
+            <p>
+                Ask questions about government schemes, eligibility,
+                benefits, documents, loans and subsidies.
+            </p>
+
+            <input
+                type="text"
+                id="question"
+                placeholder="Example: What is PM-KISAN?">
+
+            <button onclick="askAI()">
+                Ask AI
+            </button>
+
+            <div id="answer"></div>
+
+        </div>
+
+        <div class="footer">
+            Jeevandhara © 2026
+        </div>
+
+    </div>
+
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>

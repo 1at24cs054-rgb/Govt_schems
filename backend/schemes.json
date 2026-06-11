@@ -1,0 +1,790 @@
+[
+    {
+  "scheme_name": "NMSA",
+  "website": "https://nmsa.dac.gov.in/",
+  "title": "National Mission for Sustainable Agriculture",
+  "scheme_details": {
+    "eligibility": [
+      "All categories of farmers",
+      "Individual farmers",
+      "Farmer groups",
+      "Farmer Producer Organizations (FPOs)",
+      "Self Help Groups (SHGs)",
+      "Cooperative societies",
+      "Farmers in rainfed and climate-vulnerable areas"
+    ],
+    "land_limit": null,
+    "income_limit": null,
+    "money_benefits": {
+      "subsidy": "Financial assistance for sustainable agriculture practices, water conservation, integrated farming systems, agroforestry, soil health management, and climate-resilient technologies.",
+      "micro_irrigation_support": "Assistance for efficient water-use technologies under related NMSA components.",
+      "soil_health_support": "Support for soil testing, nutrient management, and soil health improvement activities."
+    },
+    "documents_required": [
+      "Aadhaar Card",
+      "Farmer Registration Certificate",
+      "Land Ownership Record / Khasra Copy / Land Documents",
+      "Bank Passbook",
+      "Passport Size Photograph",
+      "Mobile Number",
+      "Identity Proof",
+      "Address Proof"
+    ],
+    "age_limit": null,
+    "application_process": [
+      "Visit the nearest Agriculture Department office or Krishi Vigyan Kendra (KVK).",
+      "Obtain the NMSA application form for the relevant component.",
+      "Fill in farmer, land, and bank details.",
+      "Attach required documents.",
+      "Submit the application to the Agriculture Officer.",
+      "Verification of eligibility and land details is conducted.",
+      "Approval is granted based on scheme targets and availability of funds.",
+      "Benefits/subsidies are released to the beneficiary as per scheme guidelines."
+    ],
+    "benefits": [
+      "Promotes climate-resilient agriculture",
+      "Improves soil health and fertility",
+      "Encourages integrated farming systems",
+      "Supports water-use efficiency and conservation",
+      "Reduces risks from climate variability",
+      "Enhances agricultural productivity in rainfed areas",
+      "Promotes agroforestry and sustainable farming practices",
+      "Improves farmer income and livelihood security"
+    ],
+    "implemented_by": "Ministry of Agriculture & Farmers Welfare, Government of India",
+    "launch_year": "2014-15",
+    "target_beneficiaries": [
+      "Farmers",
+      "Small and marginal farmers",
+      "Rainfed area farmers",
+      "Farmer groups and cooperatives",
+      "FPOs"
+    ]
+  }
+},
+{
+  "scheme_name": "PM_KMY",
+  "website": "https://maandhan.in/",
+  "title": "Pradhan Mantri Kisan Maandhan Yojana",
+  "scheme_details": {
+    "eligibility": [
+      "Small and Marginal Farmers (SMFs)",
+      "Must be an Indian citizen",
+      "Must own cultivable agricultural land",
+      "Entry age between 18 and 40 years",
+      "Should not be covered under NPS, EPFO, ESIC or other statutory social security schemes",
+      "Should not be an income tax payer"
+    ],
+    "land_limit": {
+      "category": "Small and Marginal Farmer",
+      "maximum_land_holding": "Up to 2 hectares cultivable land"
+    },
+    "income_limit": "No fixed income limit specified",
+    "money_benefits": {
+      "monthly_pension": 3000,
+      "family_pension": 1500,
+      "government_contribution": "Equal contribution by Central Government matching farmer contribution"
+    },
+    "documents_required": [
+      "Aadhaar Card",
+      "Land Records / Land Ownership Documents",
+      "Bank Passbook",
+      "Mobile Number",
+      "Passport Size Photograph"
+    ],
+    "age_limit": {
+      "minimum_age": 18,
+      "maximum_age": 40,
+      "pension_start_age": 60
+    },
+    "application_process": [
+      "Visit the nearest Common Service Centre (CSC).",
+      "Provide Aadhaar number, bank account details and land records.",
+      "Complete registration under PM-KMY.",
+      "Choose the monthly contribution amount based on age.",
+      "Auto-debit mandate is generated from the bank account.",
+      "After successful verification, enrollment is completed.",
+      "Receive a pension of ₹3000 per month after attaining 60 years of age."
+    ],
+    "benefits": [
+      "Assured monthly pension of ₹3000 after 60 years",
+      "Family pension of 50% of pension amount to spouse after beneficiary's death",
+      "Government contributes an equal amount to the pension fund",
+      "Provides old-age financial security to farmers"
+    ],
+    "launch_year": 2019,
+    "implemented_by": "Ministry of Agriculture & Farmers Welfare, Government of India"
+  }
+},
+{
+    "scheme_name": "aif",
+    "website": "https://agriinfra.dac.gov.in",
+    "title": "National Agriculture Infra Financing Facility",
+    "scheme_details": {
+        "eligibility": [
+            "beneficiary",
+            "eligible"
+        ],
+        "land_limit": null,
+        "income_limit": {
+            "amount": 200799
+        },
+        "money_benefits": {},
+        "documents_required": [
+            "Bank Account",
+            "Ration Card"
+        ],
+        "age_limit": null,
+        "application_process": [
+            "UpdateAlert: Do not click on any private links for AIF application or geotagging.",
+            "Overview Insights3,53,200Registered Beneficiary1,87,359Number of Applications₹ 136,545 CrLoan Amount of Received Applications4,49,249Users2,00,799Total Projects Sanctioned₹ 87,384 CrAmount Sanctioned by Schedule Commercial Bank₹ 2,492 CrAmount Sanctioned by Cooperative Bank₹ 89,877 CrTotal Amount Sanctioned1,60,656Total Projects Disbursed₹ 65,439 CrAmount Disbursed by Schedule Commercial Bank₹ 1,245 CrAmount Disbursed by Cooperative Bank₹ 66,684 CrTotal Amount DisbursedVIEW ALL 3,53,200Registered Beneficiary1,87,359Number of Applications₹ 136,545 CrLoan Amount of Received Applications4,49,249Users2,00,799Total Projects Sanctioned₹ 87,384 CrAmount Sanctioned by Schedule Commercial Bank₹ 2,492 CrAmount Sanctioned by Cooperative Bank₹ 89,877 CrTotal Amount Sanctioned1,60,656Total Projects Disbursed₹ 65,439 CrAmount Disbursed by Schedule Commercial Bank₹ 1,245 CrAmount Disbursed by Cooperative Bank₹ 66,684 CrTotal Amount Disbursed ₹ 136,545 CrLoan Amount of Received Applications ₹ 87,384 CrAmount Sanctioned by Schedule Commercial Bank Amount Sanctioned by Schedule Commercial Bank ₹ 2,492 CrAmount Sanctioned by Cooperative Bank ₹ 65,439 CrAmount Disbursed by Schedule Commercial Bank Amount Disbursed by Schedule Commercial Bank ₹ 1,245 CrAmount Disbursed by Cooperative Bank Main FeatureConvergence with all schemesof central Government.Online single window facilityin collaboration with participating lending institutions.Project Management Unit to providehandholding support for projects including project preparation.Size of the financing facility –₹ 1 lakh Crore.Credit Guarantee for loansup to ₹ 2 Crore.Interest subvention of 3% p.a.,limited to ₹ 2 crore per project in one location, though loan amount can be higher.Cap on lending rate, so that benefitof interest subsidy reaches the beneficiary and services to farmers remain affordable.Multiple lending institutions includingCommercial Banks, Cooperative Banks, RRBs, Small Finance Banks, NCDC, NBFCs etc.One eligible entity puts up projects indifferent locations then all such projects will be eligible under the scheme for loan upto ₹ 2 crore.For a private sector entity, such as farmer,agri entrepreneur, start-up there will be a limit of maximum of 25 such projects.Limitation of 25 projects will not be applicableto state agencies, national and state federations of cooperatives, federations of FPOs and federation of SHGs.",
+            "Development of such infrastructure shall also address the vagaries of nature, the regional disparities, development of human resource and realization of full potential of our limited land resource.Overview Insights3,53,200Registered Beneficiary1,87,359Number of Applications₹ 136,545 CrLoan Amount of Received Applications4,49,249Users2,00,799Total Projects Sanctioned₹ 87,384 CrAmount Sanctioned by Schedule Commercial Bank₹ 2,492 CrAmount Sanctioned by Cooperative Bank₹ 89,877 CrTotal Amount Sanctioned1,60,656Total Projects Disbursed₹ 65,439 CrAmount Disbursed by Schedule Commercial Bank₹ 1,245 CrAmount Disbursed by Cooperative Bank₹ 66,684 CrTotal Amount DisbursedVIEW ALLMain FeatureConvergence with all schemesof central Government.Online single window facilityin collaboration with participating lending institutions.Project Management Unit to providehandholding support for projects including project preparation.Size of the financing facility –₹ 1 lakh Crore.Credit Guarantee for loansup to ₹ 2 Crore.Interest subvention of 3% p.a.,limited to ₹ 2 crore per project in one location, though loan amount can be higher.Cap on lending rate, so that benefitof interest subsidy reaches the beneficiary and services to farmers remain affordable.Multiple lending institutions includingCommercial Banks, Cooperative Banks, RRBs, Small Finance Banks, NCDC, NBFCs etc.One eligible entity puts up projects indifferent locations then all such projects will be eligible under the scheme for loan upto ₹ 2 crore.For a private sector entity, such as farmer,agri entrepreneur, start-up there will be a limit of maximum of 25 such projects.Limitation of 25 projects will not be applicableto state agencies, national and state federations of cooperatives, federations of FPOs and federation of SHGs.AIF in ActionYour browser does not support the video tag.Loan Application Process Video (Hindi)06:16Loan Application Process Video (English)06:01Geo Tagging Tutorial02:45Krishi Mapper Geo Tagging Tutorial02:11GalleryAIF National Bank Conclave-MumbaiAIF North East Conclave-MizoramAIF North East Investors Summit- New Delhi 2025AIF Punjab State ConclaveBeneficiary CornerVarious tutorial video linksRegister NowKrishi Mapper Tutorial/ DownloadSample DPRFacebookInstagramLinkedInTwitterWhat’s NewLatest CircularsLatest Monthly BulletinInformation about latest ConferenceSeminarsBid DetailRFPHelp CornerDPR Template (English)DPR Template (Hindi)Scheme GuidelinesChecklistRefresh CacheKind Attention×The website will be down for maintenance on 06 feb 2026 from 10 AM to 11 AM.We apologize for any inconvenience.",
+            "AIF in ActionYour browser does not support the video tag.Loan Application Process Video (Hindi)06:16Loan Application Process Video (English)06:01Geo Tagging Tutorial02:45Krishi Mapper Geo Tagging Tutorial02:11 AIF in ActionYour browser does not support the video tag.Loan Application Process Video (Hindi)06:16Loan Application Process Video (English)06:01Geo Tagging Tutorial02:45Krishi Mapper Geo Tagging Tutorial02:11 Your browser does not support the video tag.Loan Application Process Video (Hindi)06:16Loan Application Process Video (English)06:01Geo Tagging Tutorial02:45Krishi Mapper Geo Tagging Tutorial02:11 Your browser does not support the video tag.Loan Application Process Video (Hindi)06:16Loan Application Process Video (English)06:01Geo Tagging Tutorial02:45Krishi Mapper Geo Tagging Tutorial02:11 Your browser does not support the video tag.Loan Application Process Video (Hindi)06:16 Your browser does not support the video tag.",
+            "Related LinksKrishi KathaKrishi Nivesh PortalLoan Application Process Video (English)Loan Application Process Video (Hindi)Download Krishi Mapper Krishi KathaKrishi Nivesh PortalLoan Application Process Video (English)Loan Application Process Video (Hindi)Download Krishi Mapper Krishi KathaKrishi Nivesh PortalLoan Application Process Video (English)Loan Application Process Video (Hindi)",
+            "Loan Application Process Video (English)06:01 GalleryAIF National Bank Conclave-MumbaiAIF North East Conclave-MizoramAIF North East Investors Summit- New Delhi 2025AIF Punjab State ConclaveBeneficiary CornerVarious tutorial video linksRegister NowKrishi Mapper Tutorial/ DownloadSample DPRFacebookInstagramLinkedInTwitterWhat’s NewLatest CircularsLatest Monthly BulletinInformation about latest ConferenceSeminarsBid DetailRFPHelp CornerDPR Template (English)DPR Template (Hindi)Scheme GuidelinesChecklistRefresh Cache GalleryAIF National Bank Conclave-MumbaiAIF North East Conclave-MizoramAIF North East Investors Summit- New Delhi 2025AIF Punjab State ConclaveBeneficiary CornerVarious tutorial video linksRegister NowKrishi Mapper Tutorial/ DownloadSample DPRFacebookInstagramLinkedInTwitter GalleryAIF National Bank Conclave-MumbaiAIF North East Conclave-MizoramAIF North East Investors Summit- New Delhi 2025AIF Punjab State Conclave AIF National Bank Conclave-MumbaiAIF North East Conclave-MizoramAIF North East Investors Summit- New Delhi 2025AIF Punjab State Conclave AIF North East Investors Summit- New Delhi 2025 Beneficiary CornerVarious tutorial video linksRegister NowKrishi Mapper Tutorial/ DownloadSample DPRFacebookInstagramLinkedInTwitter Various tutorial video linksRegister NowKrishi Mapper Tutorial/ DownloadSample DPRFacebookInstagramLinkedInTwitter What’s NewLatest CircularsLatest Monthly BulletinInformation about latest ConferenceSeminarsBid DetailRFPHelp CornerDPR Template (English)DPR Template (Hindi)Scheme GuidelinesChecklistRefresh Cache What’s NewLatest CircularsLatest Monthly BulletinInformation about latest ConferenceSeminarsBid DetailRFP Latest CircularsLatest Monthly BulletinInformation about latest ConferenceSeminarsBid DetailRFP Help CornerDPR Template (English)DPR Template (Hindi)Scheme GuidelinesChecklistRefresh Cache DPR Template (English)DPR Template (Hindi)Scheme GuidelinesChecklistRefresh Cache Kind Attention×The website will be down for maintenance on 06 feb 2026 from 10 AM to 11 AM.We apologize for any inconvenience.",
+            "Alert: Do not click on any private links for AIF application or geotagging.",
+            "Development of such infrastructure shall also address the vagaries of nature, the regional disparities, development of human resource and realization of full potential of our limited land resource.Overview Insights3,53,200Registered Beneficiary1,87,359Number of Applications₹ 136,545 CrLoan Amount of Received Applications4,49,249Users2,00,799Total Projects Sanctioned₹ 87,384 CrAmount Sanctioned by Schedule Commercial Bank₹ 2,492 CrAmount Sanctioned by Cooperative Bank₹ 89,877 CrTotal Amount Sanctioned1,60,656Total Projects Disbursed₹ 65,439 CrAmount Disbursed by Schedule Commercial Bank₹ 1,245 CrAmount Disbursed by Cooperative Bank₹ 66,684 CrTotal Amount DisbursedVIEW ALL The role of infrastructure is crucial for agriculture development and for taking the production dynamics to the next level."
+        ]
+    }
+},
+{
+    "scheme_name": "APY",
+    "full_name": "Atal Pension Yojana",
+    "website": "https://www.jansuraksha.gov.in/",
+    "scheme_details": {
+        "eligibility": [
+            "Applicant must be an Indian citizen",
+            "Applicant age must be between 18 and 40 years",
+            "Must have a savings bank account or post office savings account",
+            "Income tax payers are not eligible",
+            "Minimum contribution period is 20 years"
+        ],
+        "age_limit": {
+            "minimum_age": 18,
+            "maximum_age": 40,
+            "pension_start_age": 60
+        },
+        "land_limit": [
+            "No land ownership requirement",
+            "Applicable for farmers and non-farmers"
+        ],
+        "income_limit": [
+            "Income tax payers cannot apply"
+        ],
+        "money_benefits": {
+            "minimum_pension": "₹1000 per month",
+            "maximum_pension": "₹5000 per month",
+            "government_guaranteed": true,
+            "spouse_pension": "Spouse receives pension after subscriber death",
+            "nominee_benefit": "Nominee receives accumulated corpus"
+        },
+        "documents_required": [
+            "Aadhaar Card",
+            "Savings Bank Account",
+            "Bank Passbook",
+            "Mobile Number",
+            "Identity Proof",
+            "Address Proof"
+        ],
+        "application_process": [
+            "Visit bank or post office",
+            "Fill APY registration form",
+            "Submit Aadhaar and bank details",
+            "Choose pension amount",
+            "Monthly contribution gets auto-debited"
+        ],
+        "contribution_modes": [
+            "Monthly",
+            "Quarterly",
+            "Half-Yearly"
+        ],
+        "pension_options": [
+            "₹1000",
+            "₹2000",
+            "₹3000",
+            "₹4000",
+            "₹5000"
+        ],
+        "official_apply_link": "https://enps.nps-proteantech.in/eNPS/NationalPensionSystem.html",
+        "important_features": [
+            "Guaranteed pension after age 60",
+            "Government-backed pension scheme",
+            "Low-risk retirement scheme",
+            "Useful for unorganized sector workers",
+            "Tax benefits available under Section 80CCD"
+        ]
+    }
+},
+{
+  "scheme_name": "BHU_AADHAAR_ULPIN",
+  "website": "https://dolr.gov.in/",
+  "title": "Unique Land Parcel Identification Number (ULPIN)",
+  "scheme_details": {
+    "eligibility": [
+      "Land owners",
+      "Farmers",
+      "Citizens possessing registered land parcels"
+    ],
+    "land_limit": "Applicable to all registered land parcels",
+    "income_limit": "No income limit specified",
+    "money_benefits": null,
+    "documents_required": [
+      "Land Ownership Documents",
+      "Aadhaar Card",
+      "Survey Records",
+      "Property Documents"
+    ],
+    "age_limit": null,
+    "application_process": [
+      "Land parcel mapped using GIS technology.",
+      "Verification by land authorities.",
+      "Generation of Unique Land Parcel Identification Number.",
+      "Integration into digital land records."
+    ],
+    "benefits": [
+      "Unique digital identity for land",
+      "Prevents land fraud",
+      "Improves ownership verification",
+      "Supports digital governance"
+    ],
+    "implemented_by": "Department of Land Resources"
+  }
+},
+{
+  "scheme_name": "DILRMP",
+  "website": "https://dolr.gov.in/",
+  "title": "Digital India Land Records Modernization Programme",
+  "scheme_details": {
+    "eligibility": [
+      "Land owners",
+      "Farmers",
+      "Citizens with registered land records",
+      "State and Union Territory land administration departments"
+    ],
+    "land_limit": "No land holding limit specified",
+    "income_limit": "No income limit specified",
+    "money_benefits": null,
+    "documents_required": [
+      "Aadhaar Card",
+      "Land Ownership Records",
+      "Identity Proof",
+      "Address Proof",
+      "Mutation Records (if applicable)"
+    ],
+    "age_limit": null,
+    "application_process": [
+      "Visit state land records portal.",
+      "Register using land details.",
+      "Apply for digitized land records or mutation services.",
+      "Verification by revenue authorities.",
+      "Access digital land records online."
+    ],
+    "benefits": [
+      "Digitized land records",
+      "Transparent land ownership system",
+      "Reduced land disputes",
+      "Online access to records",
+      "Faster mutation services"
+    ],
+    "implemented_by": "Department of Land Resources, Government of India"
+  }
+},
+{
+  "scheme_name": "ICAR",
+  "website": "https://icar.org.in/",
+  "title": "Indian Council of Agricultural Research",
+  "scheme_details": {
+    "eligibility": [
+      "Farmers",
+      "Agricultural researchers",
+      "Students",
+      "Agricultural universities",
+      "Krishi Vigyan Kendras (KVKs)",
+      "Farmer Producer Organizations (FPOs)"
+    ],
+    "land_limit": null,
+    "income_limit": null,
+    "money_benefits": null,
+    "documents_required": [],
+    "age_limit": null,
+    "application_process": [
+      "Visit the ICAR website.",
+      "Select the relevant programme, training, project, or scheme.",
+      "Apply through the concerned ICAR institute or KVK.",
+      "Submit required documents if applicable.",
+      "Participate in training, research, or extension activities."
+    ],
+    "benefits": [
+      "Agricultural research support",
+      "Farmer training programs",
+      "Technology transfer",
+      "Capacity building",
+      "Improved farming practices",
+      "Access to agricultural innovations",
+      "Skill development"
+    ],
+    "implemented_by": "Indian Council of Agricultural Research (ICAR)",
+    "target_beneficiaries": [
+      "Farmers",
+      "Researchers",
+      "Students",
+      "Agricultural institutions",
+      "Rural entrepreneurs"
+    ]
+  }
+},
+{
+  "scheme_name": "KCC",
+  "website": "https://www.myscheme.gov.in/schemes/kcc",
+  "title": "Kisan Credit Card",
+  "scheme_details": {
+    "eligibility": [
+      "Individual farmers who are owner cultivators",
+      "Joint borrowers who are owner cultivators",
+      "Tenant farmers",
+      "Oral lessees",
+      "Share croppers",
+      "Self Help Groups (SHGs) of farmers",
+      "Joint Liability Groups (JLGs) of farmers",
+      "Farmers engaged in agriculture and allied activities"
+    ],
+    "land_limit": "Applicant must possess or cultivate agricultural land. No minimum or maximum land holding specified.",
+    "income_limit": "No income limit specified",
+    "money_benefits": {
+      "interest_rate": "7% per annum on short-term crop loans up to ₹3 lakh",
+      "interest_subvention": "2% by Government of India",
+      "prompt_repayment_incentive": "3%",
+      "effective_interest_rate": "4% per annum for eligible borrowers",
+      "maximum_credit_limit": "Based on scale of finance, cropping pattern, land holding, and repayment capacity"
+    },
+    "documents_required": [
+      "KCC Application Form",
+      "Two Passport Size Photographs",
+      "Aadhaar Card",
+      "Voter ID Card",
+      "Driving License",
+      "Passport",
+      "Address Proof",
+      "Land Holding Certificate",
+      "Cropping Pattern Details",
+      "Security Documents (for higher loan limits)"
+    ],
+    "age_limit": {
+      "minimum_age": 18,
+      "maximum_age": 75,
+      "special_condition": "Applicants above 60 years may require a legal heir as co-borrower"
+    },
+    "application_process": [
+      "Visit the bank website or nearest bank branch.",
+      "Select Kisan Credit Card application.",
+      "Fill the application form.",
+      "Upload or submit required documents.",
+      "Bank verifies eligibility and land records.",
+      "Loan amount is sanctioned.",
+      "Kisan Credit Card is issued."
+    ],
+    "benefits": [
+      "Short-term crop loans",
+      "Post-harvest expense support",
+      "Produce marketing loans",
+      "Household consumption support",
+      "Working capital for agriculture",
+      "Investment credit for agriculture and allied activities",
+      "ATM-enabled RuPay Kisan Credit Card",
+      "Flexible withdrawal facilities"
+    ],
+    "implemented_by": "Ministry of Agriculture & Farmers Welfare, Government of India",
+    "launch_year": 1998,
+    "target_beneficiaries": [
+      "Farmers",
+      "Tenant farmers",
+      "Share croppers",
+      "SHGs",
+      "JLGs",
+      "Animal husbandry farmers",
+      "Fishery farmers"
+    ]
+  }
+},
+{
+  "scheme_name": "LAND_REFORMS",
+  "website": "https://dolr.gov.in/",
+  "title": "Land Reforms Programme",
+  "scheme_details": {
+    "eligibility": [
+      "Land owners",
+      "Farmers",
+      "Rural citizens",
+      "State land administration departments"
+    ],
+    "land_limit": "Varies by state policies",
+    "income_limit": "No income limit specified",
+    "money_benefits": null,
+    "documents_required": [
+      "Land Ownership Records",
+      "Identity Proof",
+      "Survey Documents",
+      "Revenue Records"
+    ],
+    "age_limit": null,
+    "application_process": [
+      "Apply through revenue department.",
+      "Submit ownership documents.",
+      "Verification and survey.",
+      "Updation of land records."
+    ],
+    "benefits": [
+      "Secure land ownership",
+      "Reduced land disputes",
+      "Better land governance",
+      "Transparent land administration"
+    ],
+    "implemented_by": "Department of Land Resources, Government of India"
+  }
+},
+{
+  "scheme_name": "NEERANCHAL",
+  "website": "https://dolr.gov.in/",
+  "title": "Neeranchal National Watershed Project",
+  "scheme_details": {
+    "eligibility": [
+      "Farmers in watershed areas",
+      "Rainfed agriculture communities",
+      "Village watershed committees"
+    ],
+    "land_limit": "Applicable to watershed regions",
+    "income_limit": "No income limit specified",
+    "money_benefits": {
+      "watershed_support": "Funding for watershed development and land restoration activities"
+    },
+    "documents_required": [
+      "Aadhaar Card",
+      "Land Records",
+      "Village Certification",
+      "Bank Account Details"
+    ],
+    "age_limit": null,
+    "application_process": [
+      "Identification of watershed area.",
+      "Selection of beneficiaries.",
+      "Implementation through watershed institutions.",
+      "Monitoring and evaluation."
+    ],
+    "benefits": [
+      "Land restoration",
+      "Water conservation",
+      "Improved agricultural productivity",
+      "Sustainable livelihood generation"
+    ],
+    "implemented_by": "Department of Land Resources"
+  }
+},
+{
+  "scheme_name": "PGS_India_NCOF",
+  "website": "https://pgsindia-ncof.gov.in/",
+  "title": "Participatory Guarantee System (PGS) India",
+  "scheme_details": {
+    "eligibility": [
+      "Individual farmers",
+      "Farmer groups",
+      "Organic producers",
+      "Local groups engaged in organic farming",
+      "Large Area Certification (LAC) applicants",
+      "Processors of organic products"
+    ],
+    "land_limit": null,
+    "income_limit": null,
+    "money_benefits": null,
+    "documents_required": [
+      "Farmer Registration Details",
+      "Land Records",
+      "Crop Production Records",
+      "Group Membership Records (if applicable)",
+      "Organic Farming Declaration"
+    ],
+    "age_limit": null,
+    "application_process": [
+      "Register on the PGS India portal.",
+      "Join or form a Local Group.",
+      "Submit farm and crop details.",
+      "Participate in peer review and verification.",
+      "Maintain organic farming records.",
+      "Undergo certification evaluation.",
+      "Receive PGS Organic Certification."
+    ],
+    "benefits": [
+      "Organic certification at low cost",
+      "Market access for organic produce",
+      "Traceability of certified products",
+      "Consumer trust through transparent certification",
+      "National networking of organic producers, consumers and traders",
+      "Easy maintenance of crop production records",
+      "Public verification of organic produce"
+    ]
+  }
+},
+{
+  "scheme_name": "PMJDY",
+  "website": "https://pmjdy.gov.in/",
+  "title": "Pradhan Mantri Jan-Dhan Yojana",
+  "scheme_details": {
+    "eligibility": [
+      "Any Indian citizen",
+      "Individuals aged 10 years and above",
+      "Minors above 10 years can open and operate an account",
+      "Persons without any existing bank account",
+      "Rural and urban residents",
+      "Low-income and financially excluded individuals"
+    ],
+    "land_limit": "No land holding limit specified",
+    "income_limit": "No income limit specified",
+    "money_benefits": {
+      "minimum_balance_requirement": 0,
+      "accidental_insurance_cover": 200000,
+      "life_insurance_cover": 30000,
+      "overdraft_facility": 10000,
+      "rupay_debit_card": true,
+      "direct_benefit_transfer": true
+    },
+    "documents_required": [
+      "Aadhaar Card",
+      "Voter ID Card",
+      "Driving License",
+      "PAN Card",
+      "Passport",
+      "NREGA Job Card",
+      "Passport Size Photograph",
+      "Mobile Number",
+      "Officially Valid Documents (OVD)",
+      "Self-attested photograph (for small accounts)"
+    ],
+    "age_limit": {
+      "minimum_age": 10,
+      "maximum_age": null
+    },
+    "application_process": [
+      "Visit any participating bank branch or Bank Mitra.",
+      "Collect the PMJDY account opening form.",
+      "Fill in personal details and nominee information.",
+      "Submit identity and address proof documents.",
+      "Complete KYC verification.",
+      "Open a Basic Savings Bank Deposit Account (BSBDA).",
+      "Receive RuPay Debit Card.",
+      "Link Aadhaar and mobile number for DBT benefits."
+    ],
+    "benefits": [
+      "Zero-balance savings account",
+      "Access to banking services",
+      "RuPay Debit Card",
+      "Accidental insurance cover up to ₹2 lakh",
+      "Life insurance cover (eligible accounts)",
+      "Overdraft facility up to ₹10,000",
+      "Direct Benefit Transfer (DBT) support",
+      "Access to pension and insurance schemes",
+      "Financial inclusion for unbanked citizens"
+    ],
+    "implemented_by": "Department of Financial Services, Ministry of Finance, Government of India",
+    "launch_year": 2014,
+    "target_beneficiaries": [
+      "Unbanked citizens",
+      "Farmers",
+      "Rural households",
+      "Women",
+      "Low-income families",
+      "Students",
+      "Workers in unorganized sectors"
+    ]
+  }
+},
+{
+    "scheme_name": "PM-KISAN",
+    "website": "https://pmkisan.gov.in/",
+    "title": "PM-Kisan Samman Nidhi",
+    "eligibility_related_data": [
+        "These include, for example: (i) Farmers who acquired land ownership after 01-02-2019, (ii) Cases where more than one family member is receiving benefits (e",
+        "All Institutional Land holders",
+        "Farmer families which belong to one or more of the following categories:",
+        "Under the scheme an income support of 6,000/- per year in three equal installments will be provided to all land holding farmer families",
+        "4 PM-KMY Operational Guidelines Salient Features FAQ Ineligibility/Corrections/In process Letter / Circulars Know About eKYC Process Communication & Outreach Press Release Leaflets Creatives Social Media Articles & Newsletter Videos New Farmer Registration Know Your Status The Hon’ble Prime Minister has released the 22nd installment of the PM-KISAN on 13th March 2026 from Guwahati, Assam",
+        "10,000/-or more (Excluding Multi Tasking Staff / Class IV/Group D employees) of above category All Persons who paid Income Tax in last assessment year Professionals like Doctors, Engineers, Lawyers, Chartered Accountants, and Architects registered with Professional bodies and carrying out profession by undertaking practices",
+        "eKYC is MANDATORY for PMKISAN Registered Farmers",
+        "Period Wise Number of Farmers Benefited 9,46,15,309 DEC-MAR 2025-26 9,35,79,869 AUG-NOV 2025-26 9,71,41,402 APR-JUL 2025-26 10,06,85,615 DEC-MAR 2024-25 9,59,28,628 AUG-NOV 2024-25 9,38,01,580 APR-JUL 2024-25 9,04,44,694 DEC-MAR 2023-24 8,12,16,697 AUG-NOV 2023-24 8,56,79,091 APR-JUL 2023-24 8,12,38,919 DEC-MAR 2022-23 8,57,40,741 AUG-NOV 2022-23 10,48,45,164 APR-JUL 2022-23 10,41,68,513 DEC-MAR 2021-22 10,34,47,290 AUG-NOV 2021-22 9,99,17,958 APR-JUL 2021-22 9,84,76,200 DEC-MAR 2020-21 9,72,27,546 AUG-NOV 2020-21 9,26,93,999 APR-JUL 2020-21 8,20,91,667 DEC-MAR 2019-20 7,66,01,029 AUG-NOV 2019-20 6,00,34,872 APR-JUL 2019-20 3,16,21,743 DEC-MAR 2018-19 Payment Success Farmers Corner New Farmer Registration Edit / Update Self Registration Status of Self Registered Farmer/ CSC Farmers Update Missing Information Know Your Status Update Mobile Number Online Refund Voluntary Surrender of PM Kisan Benefits Beneficiary List Search your Point of Contact (POC) Voluntary Surrender Revocation Surrender Revocation Status State Transfer Request Helpdesk - Query Form Download PM Kisan Mobile App FAQ Download KCC Form Useful Links Financing Facility Under Agriculture Infrastructure Campaign for Saturation of all PM KISAN beneficiaries with Kisan Credit Cards (KCC) Interaction with Farmers and Release of PM-Kisan Samman Nidhi by Hon'ble Prime Ministry of India Shri Narendra Modi on 9th August 2021 12:30 PM IST Interaction with Farmers and Release of PM-Kisan Samman Nidhi by Hon'ble Prime Minister of India Shri Narendra Modi on 14th May 2021 11:00 AM IST Webcast of Hon'ble Prime Minister's event on the occasion of the \" One Year Completion of the PM-Kisan and Distribution of Kisan Credit Cards (KCC) \" PM-KISAN Scheme PM Kisan is a Central Sector scheme with 100% funding from Government of India",
+        "Contents published and managed by Department of Agriculture & Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India",
+        "State Government and UT administration will identify the farmer families which are eligible for support as per scheme guidelines",
+        "Farmers are requested to check their eligibility status on Know Your Status (KYS) of PM KISAN website/ mobile app or Kisan eMitra chatbot for further details",
+        "PM-Kisan Samman Nidhi Contact Us Sitemap Skip to main content Screen Reader Access English Assamese Gujarati Hindi Kannada Malayalam Marathi Tamil Telugu Urdu Login External Logins CSC Login eMitra Login eGramaone Login eGrama Login PM Kisan Samman Nidhi Department of Agriculture and Farmers Welfare Ministry of Agriculture and Farmers Welfare Government of India HOME About Us About The Scheme SCHEME EXCLUSION Hindi Version English Version FAQ Revised FAQ Basic FAQ Additional FAQ Guidelines Operational Guidelines Revised Operational Guidelines Financing Facility under Agriculture Infrastructure Fund Other Guidelines Transfer Of Benefits Through Npci Fund Transfer Guidelines Pm Kisan Refund Mechanism Aadhar Seeding Of Database Of Beneficiaries Reimbursement Of Expenses On Block, District & State Level Launch Functions Setting Up Of Grievance Mechanism By States & Ut Archive Pre-Revised Operational Guidelines Amendment In Operational Guidelines Clarification To Operational Guidelines Amendment To Operational Guidelines - Manipur Clarifications Related To Clauses 3"
+    ],
+    "document_related_data": [
+        "4 PM-KMY Operational Guidelines Salient Features FAQ Ineligibility/Corrections/In process Letter / Circulars Know About eKYC Process Communication & Outreach Press Release Leaflets Creatives Social Media Articles & Newsletter Videos New Farmer Registration Know Your Status The Hon’ble Prime Minister has released the 22nd installment of the PM-KISAN on 13th March 2026 from Guwahati, Assam",
+        "Former and present holders of constitutional posts Former and present Ministers/ State Ministers and former/present Members of LokSabha/ RajyaSabha/ State Legislative Assemblies/ State Legislative Councils,former and present Mayors of Municipal Corporations, former and present Chairpersons of District Panchayats",
+        "It has become operational from 1",
+        "Period Wise Number of Farmers Benefited 9,46,15,309 DEC-MAR 2025-26 9,35,79,869 AUG-NOV 2025-26 9,71,41,402 APR-JUL 2025-26 10,06,85,615 DEC-MAR 2024-25 9,59,28,628 AUG-NOV 2024-25 9,38,01,580 APR-JUL 2024-25 9,04,44,694 DEC-MAR 2023-24 8,12,16,697 AUG-NOV 2023-24 8,56,79,091 APR-JUL 2023-24 8,12,38,919 DEC-MAR 2022-23 8,57,40,741 AUG-NOV 2022-23 10,48,45,164 APR-JUL 2022-23 10,41,68,513 DEC-MAR 2021-22 10,34,47,290 AUG-NOV 2021-22 9,99,17,958 APR-JUL 2021-22 9,84,76,200 DEC-MAR 2020-21 9,72,27,546 AUG-NOV 2020-21 9,26,93,999 APR-JUL 2020-21 8,20,91,667 DEC-MAR 2019-20 7,66,01,029 AUG-NOV 2019-20 6,00,34,872 APR-JUL 2019-20 3,16,21,743 DEC-MAR 2018-19 Payment Success Farmers Corner New Farmer Registration Edit / Update Self Registration Status of Self Registered Farmer/ CSC Farmers Update Missing Information Know Your Status Update Mobile Number Online Refund Voluntary Surrender of PM Kisan Benefits Beneficiary List Search your Point of Contact (POC) Voluntary Surrender Revocation Surrender Revocation Status State Transfer Request Helpdesk - Query Form Download PM Kisan Mobile App FAQ Download KCC Form Useful Links Financing Facility Under Agriculture Infrastructure Campaign for Saturation of all PM KISAN beneficiaries with Kisan Credit Cards (KCC) Interaction with Farmers and Release of PM-Kisan Samman Nidhi by Hon'ble Prime Ministry of India Shri Narendra Modi on 9th August 2021 12:30 PM IST Interaction with Farmers and Release of PM-Kisan Samman Nidhi by Hon'ble Prime Minister of India Shri Narendra Modi on 14th May 2021 11:00 AM IST Webcast of Hon'ble Prime Minister's event on the occasion of the \" One Year Completion of the PM-Kisan and Distribution of Kisan Credit Cards (KCC) \" PM-KISAN Scheme PM Kisan is a Central Sector scheme with 100% funding from Government of India",
+        "The fund will be directly transferred to the bank accounts of the beneficiaries",
+        "State Government and UT administration will identify the farmer families which are eligible for support as per scheme guidelines",
+        "PM-Kisan Samman Nidhi Contact Us Sitemap Skip to main content Screen Reader Access English Assamese Gujarati Hindi Kannada Malayalam Marathi Tamil Telugu Urdu Login External Logins CSC Login eMitra Login eGramaone Login eGrama Login PM Kisan Samman Nidhi Department of Agriculture and Farmers Welfare Ministry of Agriculture and Farmers Welfare Government of India HOME About Us About The Scheme SCHEME EXCLUSION Hindi Version English Version FAQ Revised FAQ Basic FAQ Additional FAQ Guidelines Operational Guidelines Revised Operational Guidelines Financing Facility under Agriculture Infrastructure Fund Other Guidelines Transfer Of Benefits Through Npci Fund Transfer Guidelines Pm Kisan Refund Mechanism Aadhar Seeding Of Database Of Beneficiaries Reimbursement Of Expenses On Block, District & State Level Launch Functions Setting Up Of Grievance Mechanism By States & Ut Archive Pre-Revised Operational Guidelines Amendment In Operational Guidelines Clarification To Operational Guidelines Amendment To Operational Guidelines - Manipur Clarifications Related To Clauses 3"
+    ]
+},
+{
+  "scheme_name": "PKVY",
+  "website": "https://pgsindia-ncof.gov.in/",
+  "title": "Paramparagat Krishi Vikas Yojana",
+  "scheme_details": {
+    "eligibility": [
+      "Individual farmers",
+      "Farmer groups",
+      "Organic farming clusters",
+      "Farmers willing to adopt organic farming practices",
+      "Farmers registered under PGS-India certification"
+    ],
+    "land_limit": {
+      "maximum_land_holding": "Up to 2 hectares"
+    },
+    "income_limit": "No income limit specified",
+    "money_benefits": {
+      "total_assistance_per_hectare": 31500,
+      "duration_years": 3,
+      "organic_inputs": 15000,
+      "training_and_capacity_building": 9000,
+      "certification_and_residue_analysis": 3000,
+      "marketing_packaging_branding": 4500
+    },
+    "documents_required": [
+      "Aadhaar Card",
+      "Land Records",
+      "Bank Account Details",
+      "Farmer Registration Details",
+      "Passport Size Photograph",
+      "Mobile Number",
+      "PGS Group Registration (if applicable)"
+    ],
+    "age_limit": null,
+    "application_process": [
+      "Form or join an organic farming cluster.",
+      "Register under PGS-India through the designated agency.",
+      "Submit farmer and land details.",
+      "Undergo verification and cluster approval.",
+      "Adopt organic farming practices as per PKVY guidelines.",
+      "Receive training, certification, and financial assistance.",
+      "Benefits are transferred through Direct Benefit Transfer (DBT)."
+    ],
+    "benefits": [
+      "Promotion of organic farming",
+      "Improvement of soil health",
+      "Reduced dependence on chemical fertilizers and pesticides",
+      "Organic certification support",
+      "Marketing and branding assistance",
+      "Training and capacity building",
+      "Better income opportunities through organic produce"
+    ],
+    "launch_year": 2015,
+    "implemented_by": "Ministry of Agriculture & Farmers Welfare, Government of India"
+  }
+},
+{
+  "scheme_name": "SNAM",
+  "website": "https://agrimachinery.nic.in/",
+  "title": "Sub-Mission on Agricultural Mechanization (SMAM)",
+  "scheme_details": {
+    "eligibility": [
+      "All categories of farmers",
+      "Small and marginal farmers",
+      "Women farmers",
+      "Scheduled Caste (SC) farmers",
+      "Scheduled Tribe (ST) farmers",
+      "Farmer Producer Organizations (FPOs)",
+      "Cooperative societies",
+      "Self Help Groups (SHGs)",
+      "Rural entrepreneurs",
+      "Custom Hiring Centres (CHCs)"
+    ],
+    "land_limit": "No fixed land holding limit specified",
+    "income_limit": "No income limit specified",
+    "money_benefits": {
+      "subsidy_range": "40% to 50% of machinery cost",
+      "higher_subsidy_for_sc_st_women": "Up to 50%",
+      "custom_hiring_centre_support": "Financial assistance for establishment of CHCs",
+      "farm_machinery_bank_support": "Assistance for farm machinery banks"
+    },
+    "documents_required": [
+      "Aadhaar Card",
+      "Land Records",
+      "Bank Passbook",
+      "Farmer Registration Certificate",
+      "Passport Size Photograph",
+      "Mobile Number",
+      "Caste Certificate (if applicable)",
+      "FPO/SHG Registration Certificate (if applicable)"
+    ],
+    "age_limit": {
+      "minimum_age": 18
+    },
+    "application_process": [
+      "Register on the state agriculture portal or nearest agriculture office.",
+      "Select the required farm machinery.",
+      "Upload required documents.",
+      "Submit application for subsidy.",
+      "Verification by Agriculture Department.",
+      "Purchase approved machinery.",
+      "Claim subsidy through Direct Benefit Transfer (DBT)."
+    ],
+    "benefits": [
+      "Subsidy on agricultural machinery",
+      "Improved farm productivity",
+      "Reduction in labor dependency",
+      "Promotion of mechanized farming",
+      "Access to machinery through Custom Hiring Centres",
+      "Support for small and marginal farmers"
+    ],
+    "implemented_by": "Department of Agriculture & Farmers Welfare, Government of India",
+    "launch_year": 2014,
+    "target_beneficiaries": [
+      "Farmers",
+      "FPOs",
+      "SHGs",
+      "Cooperatives",
+      "Agricultural entrepreneurs"
+    ]
+  }
+},
+{
+  "scheme_name": "WDC_PMKSY",
+  "website": "https://dolr.gov.in/",
+  "title": "Watershed Development Component of PMKSY",
+  "scheme_details": {
+    "eligibility": [
+      "Farmers in rainfed areas",
+      "Watershed communities",
+      "Village institutions",
+      "Farmer groups",
+      "Self Help Groups"
+    ],
+    "land_limit": "Applicable to watershed project areas",
+    "income_limit": "No income limit specified",
+    "money_benefits": {
+      "land_development_support": "Financial assistance for watershed and land development activities"
+    },
+    "documents_required": [
+      "Aadhaar Card",
+      "Land Records",
+      "Bank Account Details",
+      "Village Identification Documents"
+    ],
+    "age_limit": null,
+    "application_process": [
+      "Identify watershed project area.",
+      "Register through local watershed authority.",
+      "Submit land and beneficiary details.",
+      "Participate in approved watershed activities.",
+      "Receive assistance under project guidelines."
+    ],
+    "benefits": [
+      "Soil conservation",
+      "Water harvesting",
+      "Land productivity improvement",
+      "Groundwater recharge",
+      "Sustainable agriculture support"
+    ],
+    "implemented_by": "Department of Land Resources"
+  }
+}
+]
