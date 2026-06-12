@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheme Details - Jeevandhara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Nav -->
+    <header class="dashboard-header">
+        <div class="header-brand">
+            <span style="font-size: 24px;">🌾</span>
+            <span>Jeevandhara</span>
+        </div>
+        <div class="header-actions">
+            <button class="theme-switch" id="theme-btn" aria-label="Toggle Theme">
+                🌙
+            </button>
+            <a href="dashboard.html" class="btn btn-secondary" style="padding: 8px 16px; font-size: 13px;">
+                Dashboard
+            </a>
+        </div>
+    </header>
+
+    <!-- Scheme Hero Section -->
+    <section class="scheme-hero">
+        <div class="scheme-hero-content">
+            <span class="scheme-dept-tag" id="scheme-dept">Loading Department...</span>
+            <h1 id="scheme-title">Loading Scheme Name...</h1>
+            <p class="scheme-hero-tagline" id="scheme-tagline">Loading tagline description...</p>
+            
+            <div class="scheme-hero-meta">
+                <div class="scheme-hero-meta-item">
+                    <span>📅</span>
+                    <span id="scheme-year">Launch Year: -</span>
+                </div>
+                <div class="scheme-hero-meta-item">
+                    <span>🏛️</span>
+                    <span id="scheme-implementor">Implemented By: -</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scheme Content Details -->
+    <main class="scheme-detail-container">
+        
+        <!-- Navigation Row -->
+        <div class="detail-nav-bar">
+            <a href="dashboard.html" class="btn btn-secondary">
+                ← Back to Dashboard
+            </a>
+            <a href="#" target="_blank" id="scheme-web-link" class="btn btn-primary">
+                <span>Visit Official Website</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3"/>
+                </svg>
+            </a>
+        </div>
+
+        <!-- Section 1: Overview -->
+        <section class="scheme-section-card">
+            <h2>📝 Overview</h2>
+            <p id="scheme-overview" style="font-size: 15px; color: var(--text-main); line-height: 1.7;">Loading overview details...</p>
+        </section>
+
+        <!-- Section 2: Benefits & Subsidies -->
+        <section class="scheme-section-card">
+            <h2>💰 Benefits & Subsidies</h2>
+            <div id="scheme-benefits-money" style="margin-bottom: 20px; font-weight: 500; font-size: 15px;"></div>
+            <ul class="list-checklist" id="scheme-benefits-list">
+                <!-- Dynamic benefits list -->
+            </ul>
+        </section>
+
+        <!-- Section 3: Eligibility Rules -->
+        <section class="scheme-section-card">
+            <h2>👨‍🌾 Eligibility Criteria</h2>
+            <div id="scheme-eligibility-limits" style="display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 20px;">
+                <!-- Dynamic age, land limits info badges -->
+            </div>
+            <ul class="list-checklist" id="scheme-eligibility-list">
+                <!-- Dynamic eligibility list -->
+            </ul>
+        </section>
+
+        <!-- Section 4: Required Documents -->
+        <section class="scheme-section-card">
+            <h2>📂 Required Documents Checklist</h2>
+            <ul class="list-checklist" id="scheme-documents-list" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <!-- Dynamic documents list -->
+            </ul>
+        </section>
+
+        <!-- Section 5: Application Process -->
+        <section class="scheme-section-card">
+            <h2>🚜 Step-by-Step Application Process</h2>
+            <ol class="list-numbered" id="scheme-process-list">
+                <!-- Dynamic application process steps -->
+            </ol>
+        </section>
+
+        <!-- Section 6: Important Dates -->
+        <section class="scheme-section-card">
+            <h2>📅 Important Dates & Deadlines</h2>
+            <p id="scheme-dates" style="font-size: 15px; color: var(--text-main);">Loading timelines...</p>
+        </section>
+
+        <!-- Section 7: FAQs -->
+        <section class="scheme-section-card">
+            <h2>❓ Frequently Asked Questions</h2>
+            <div class="faq-list" id="scheme-faq-container">
+                <!-- Dynamic FAQs list -->
+            </div>
+        </section>
+
+        <!-- Bottom Navigation -->
+        <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
+            <a href="dashboard.html" class="btn btn-secondary" style="padding: 12px 30px;">
+                ← Back to Dashboard
+            </a>
+        </div>
+
+    </main>
+
+    <script src="scheme.js"></script>
+</body>
+</html>

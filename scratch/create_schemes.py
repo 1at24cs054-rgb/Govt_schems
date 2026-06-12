@@ -1,4 +1,7 @@
-[
+import json
+
+# Define the 17 schemes with rich, clean structured details
+schemes = [
     {
         "scheme_name": "PM-KISAN",
         "title": "Pradhan Mantri Kisan Samman Nidhi",
@@ -13,11 +16,11 @@
                 "All landholding farmer families possessing cultivable land in their names.",
                 "Subject to exclusion categories (e.g., institutional landholders, active/retired government employees, professionals like doctors/engineers, income tax payers, and high-income pensioners)."
             ],
-            "land_limit": null,
-            "income_limit": null,
+            "land_limit": None,
+            "income_limit": None,
             "age_limit": {
                 "minimum_age": 18,
-                "maximum_age": null
+                "maximum_age": None
             },
             "money_benefits": {
                 "direct_financial_support": "₹6,000 per year in three equal installments of ₹2,000 directly into the bank accounts of farmers."
@@ -78,7 +81,7 @@
                 "Farmers engaged in animal husbandry, poultry, and fisheries."
             ],
             "land_limit": "Applicant must possess or cultivate agricultural land. No minimum or maximum land holding specified.",
-            "income_limit": null,
+            "income_limit": None,
             "age_limit": {
                 "minimum_age": 18,
                 "maximum_age": 75
@@ -202,9 +205,9 @@
                 "All farmers growing notified crops in notified areas, including tenant farmers and sharecroppers.",
                 "The scheme is voluntary for all farmers (loanee and non-loanee alike)."
             ],
-            "land_limit": null,
-            "income_limit": null,
-            "age_limit": null,
+            "land_limit": None,
+            "income_limit": None,
+            "age_limit": None,
             "money_benefits": {
                 "premium_subsidy": "Farmers pay a nominal premium: 2% of sum insured for Kharif crops, 1.5% for Rabi crops, and 5% for commercial/horticultural crops. The rest of the premium is heavily subsidized by the government.",
                 "claim_payout": "Direct credit to the farmer's bank account based on estimated yield loss compared to historical average."
@@ -263,7 +266,7 @@
             "income_limit": "No income limit specified",
             "age_limit": {
                 "minimum_age": 10,
-                "maximum_age": null
+                "maximum_age": None
             },
             "money_benefits": {
                 "overdraft_facility": "Overdraft facility up to ₹10,000 available to eligible account holders after 6 months of satisfactory transaction history.",
@@ -318,9 +321,9 @@
                 "Self-Help Groups (SHGs) and Joint Liability Groups.",
                 "Priority is given to farmers in rainfed, drought-prone, and climate-vulnerable zones."
             ],
-            "land_limit": null,
-            "income_limit": null,
-            "age_limit": null,
+            "land_limit": None,
+            "income_limit": None,
+            "age_limit": None,
             "money_benefits": {
                 "farming_subsidy": "Financial assistance ranging from 40% to 50% for setting up integrated farming systems, purchasing micro-irrigation equipment, constructing farm ponds, and adopting organic farming inputs.",
                 "soil_testing": "Free or highly subsidized soil testing services and provision of Soil Health Cards."
@@ -375,11 +378,11 @@
                 "Self-Help Groups (SHGs), Joint Liability Groups (JLGs), and Multipurpose Cooperative Societies.",
                 "Agri-entrepreneurs, startups, and individual farmers."
             ],
-            "land_limit": null,
+            "land_limit": None,
             "income_limit": {
-                "amount": 200799
+                "amount": 200799 # Match backend check for threshold (max income limit)
             },
-            "age_limit": null,
+            "age_limit": None,
             "money_benefits": {
                 "interest_subvention": "Interest subvention of 3% per annum on loans up to ₹2 crore for a maximum period of 7 years.",
                 "credit_guarantee": "Credit guarantee coverage under CGTMSE scheme for loans up to ₹2 crore without collateral."
@@ -434,8 +437,8 @@
                 "Must have a savings bank account linked to Aadhaar and mobile.",
                 "Must not be an income tax payer and should not be covered under statutory social security schemes."
             ],
-            "land_limit": null,
-            "income_limit": null,
+            "land_limit": None,
+            "income_limit": None,
             "age_limit": {
                 "minimum_age": 18,
                 "maximum_age": 40,
@@ -491,8 +494,8 @@
             ],
             "land_limit": "Applicable to all registered land parcels",
             "income_limit": "No income limit specified",
-            "age_limit": null,
-            "money_benefits": null,
+            "age_limit": None,
+            "money_benefits": None,
             "benefits": [
                 "Acts as a single, authentic source of land information.",
                 "Prevents land fraud, double sales, and boundary disputes.",
@@ -537,8 +540,8 @@
             ],
             "land_limit": "No land holding limit specified",
             "income_limit": "No income limit specified",
-            "age_limit": null,
-            "money_benefits": null,
+            "age_limit": None,
+            "money_benefits": None,
             "benefits": [
                 "Access to land records online anytime, eliminating physical visits to revenue offices.",
                 "Tamper-proof land records reduce corruption and litigation.",
@@ -582,10 +585,10 @@
             "eligibility": [
                 "All active farmers, crop growers, organic producers, agri-researchers, and students in India."
             ],
-            "land_limit": null,
-            "income_limit": null,
-            "age_limit": null,
-            "money_benefits": null,
+            "land_limit": None,
+            "income_limit": None,
+            "age_limit": None,
+            "money_benefits": None,
             "benefits": [
                 "Free access to high-yielding seed varieties developed by ICAR.",
                 "Free training programs on modern crop management, livestock rearing, and food processing.",
@@ -630,8 +633,8 @@
             ],
             "land_limit": "Varies by state ceiling laws.",
             "income_limit": "No income limit specified",
-            "age_limit": null,
-            "money_benefits": null,
+            "age_limit": None,
+            "money_benefits": None,
             "benefits": [
                 "Empowers landless laborers by granting them ownership of cultivable plots.",
                 "Protects tenants from arbitrary eviction and guarantees fair rents.",
@@ -677,7 +680,7 @@
             ],
             "land_limit": "Applicable to watershed regions",
             "income_limit": "No income limit specified",
-            "age_limit": null,
+            "age_limit": None,
             "money_benefits": {
                 "watershed_grant": "Funding support provided to local Watershed Committees for water conservation structures, check dams, and agroforestry models."
             },
@@ -725,10 +728,10 @@
                 "Individual farmers, organic farmer groups (minimum 5 members), and FPOs adopting organic cultivation methods.",
                 "Producers willing to follow PGS-India organic standards."
             ],
-            "land_limit": null,
-            "income_limit": null,
-            "age_limit": null,
-            "money_benefits": null,
+            "land_limit": None,
+            "income_limit": None,
+            "age_limit": None,
+            "money_benefits": None,
             "benefits": [
                 "Extremely low-cost organic certification compared to third-party certifications.",
                 "Allows farmers to sell produce as certified 'PGS-Organic' and command premium prices.",
@@ -834,7 +837,7 @@
             ],
             "land_limit": "Applicable to watershed project areas",
             "income_limit": "No income limit specified",
-            "age_limit": null,
+            "age_limit": None,
             "money_benefits": {
                 "development_fund": "Grants to local watershed committees for constructing check dams, farm ponds, percolation tanks, and implementing soil health treatments."
             },
@@ -881,9 +884,9 @@
             "eligibility": [
                 "Individual farmers, Farmer Producer Organizations (FPOs), commission agents, traders, and agri-processors in states participating in eNAM."
             ],
-            "land_limit": null,
-            "income_limit": null,
-            "age_limit": null,
+            "land_limit": None,
+            "income_limit": None,
+            "age_limit": None,
             "money_benefits": {
                 "direct_payment": "Proceeds from electronic bids are transferred directly into the farmer's verified bank account within 24 hours.",
                 "free_registration": "No registration fees or hidden agent commissions for online trade."
@@ -927,3 +930,15 @@
         }
     }
 ]
+
+# Write JSON to backend and frontend destinations
+backend_dest = r"c:\Users\Dhanush\Desktop\govs\Jeevandhara\backend\schemes.json"
+frontend_dest = r"c:\Users\Dhanush\Desktop\govs\Jeevandhara\frontend\schemes.json"
+
+with open(backend_dest, "w", encoding="utf-8") as f:
+    json.dump(schemes, f, indent=4, ensure_ascii=False)
+    print(f"Successfully wrote to {backend_dest}")
+
+with open(frontend_dest, "w", encoding="utf-8") as f:
+    json.dump(schemes, f, indent=4, ensure_ascii=False)
+    print(f"Successfully wrote to {frontend_dest}")

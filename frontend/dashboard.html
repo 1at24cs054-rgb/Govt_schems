@@ -1,72 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeevandhara Dashboard</title>
-
+    <title>Dashboard - Jeevandhara</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <div class="container">
+    <div class="dashboard-layout">
+        
+        <!-- Header -->
+        <header class="dashboard-header">
+            <div class="header-brand">
+                <span style="font-size: 24px;">🌾</span>
+                <span>Jeevandhara</span>
+            </div>
+            <div class="header-actions">
+                <div class="theme-toggle-container">
+                    <button class="theme-switch" id="theme-btn" aria-label="Toggle Theme">
+                        🌙
+                    </button>
+                </div>
+                <div class="user-profile-widget">
+                    <div class="user-avatar" id="header-avatar">F</div>
+                    <span class="user-name" id="header-user-name">Loading...</span>
+                </div>
+                <button onclick="logout()" class="btn btn-danger" style="padding: 8px 16px; font-size: 13px;">
+                    Logout
+                </button>
+            </div>
+        </header>
 
-        <button onclick="logout()" class="logout-btn">
-            Logout
-        </button>
+        <!-- Dashboard Grid Container -->
+        <main class="dashboard-content">
+            
+            <!-- Left Main Column -->
+            <div class="main-column">
+                
+                <!-- Welcome Section -->
+                <section class="welcome-banner">
+                    <h2>Welcome, <span id="farmer-title-name">Farmer</span>! 👨‍🌾</h2>
+                    <p>Here is your smart agriculture profile summary. Keep your information updated for the best government scheme matches.</p>
+                    
+                    <div class="farmer-details-grid">
+                        <div class="farmer-detail-item">
+                            <div class="label">Full Name</div>
+                            <div class="value" id="farmer-name">-</div>
+                        </div>
+                        <div class="farmer-detail-item">
+                            <div class="label">Age</div>
+                            <div class="value" id="farmer-age">-</div>
+                        </div>
+                        <div class="farmer-detail-item">
+                            <div class="label">Annual Income</div>
+                            <div class="value" id="farmer-income">-</div>
+                        </div>
+                        <div class="farmer-detail-item">
+                            <div class="label">Land Size</div>
+                            <div class="value" id="farmer-land">-</div>
+                        </div>
+                        <div class="farmer-detail-item">
+                            <div class="label">State</div>
+                            <div class="value" id="farmer-state">-</div>
+                        </div>
+                        <div class="farmer-detail-item">
+                            <div class="label">District</div>
+                            <div class="value" id="farmer-district">-</div>
+                        </div>
+                    </div>
+                </section>
 
-        <div class="hero">
+                <!-- Statistics Cards -->
+                <section class="stats-container">
+                    <div class="stat-box stat-eligible">
+                        <div class="stat-icon">📜</div>
+                        <h3 id="stat-eligible-count">0</h3>
+                        <p>Eligible Schemes</p>
+                    </div>
+                    <div class="stat-box stat-queries">
+                        <div class="stat-icon">💬</div>
+                        <h3 id="stat-queries-count">0</h3>
+                        <p>Queries Asked</p>
+                    </div>
+                    <div class="stat-box stat-benefits">
+                        <div class="stat-icon">💰</div>
+                        <h3 id="stat-benefits-count">0</h3>
+                        <p>Benefits Listed</p>
+                    </div>
+                    <div class="stat-box stat-score">
+                        <div class="stat-icon">📈</div>
+                        <h3 id="stat-profile-score">0%</h3>
+                        <p>Profile Score</p>
+                    </div>
+                </section>
 
-            <h1>🌾 Jeevandhara Dashboard</h1>
+                <!-- Recommended Schemes Section -->
+                <section class="dashboard-section">
+                    <div class="section-header-row">
+                        <h2 class="section-title">✨ Recommended Schemes <span>For You</span></h2>
+                    </div>
+                    
+                    <!-- Recommended Schemes Grid -->
+                    <div class="scheme-grid" id="recommended-schemes-container">
+                        <!-- Skeleton Loader -->
+                        <div class="skeleton skeleton-card"></div>
+                        <div class="skeleton skeleton-card"></div>
+                        <div class="skeleton skeleton-card"></div>
+                    </div>
+                </section>
 
-            <p>
-                Smart Government Scheme Recommendation System
-            </p>
+                <!-- View All Schemes Section -->
+                <section class="dashboard-section">
+                    <div class="section-header-row">
+                        <h2 class="section-title">📚 Browse All Government Schemes</h2>
+                        <div class="search-filter-wrapper">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+                            </svg>
+                            <input type="text" class="search-input" id="search-schemes-input" placeholder="Search schemes by name or keywords..." oninput="filterAllSchemes()">
+                        </div>
+                    </div>
+                    
+                    <!-- All Schemes Grid -->
+                    <div class="scheme-grid" id="all-schemes-container">
+                        <div class="skeleton skeleton-card"></div>
+                        <div class="skeleton skeleton-card"></div>
+                        <div class="skeleton skeleton-card"></div>
+                    </div>
+                </section>
 
-        </div>
+            </div>
 
-        <div id="stats"></div>
+        </main>
 
-        <hr>
-
-        <h2>Eligible Schemes</h2>
-
-        <div id="schemes"></div>
-
-        <hr>
-
-        <div class="ai-section">
-
-            <h2>🤖 AI Assistant</h2>
-
-            <p>
-                Ask questions about government schemes, eligibility,
-                benefits, documents, loans and subsidies.
-            </p>
-
-            <input
-                type="text"
-                id="question"
-                placeholder="Example: What is PM-KISAN?">
-
-            <button onclick="askAI()">
-                Ask AI
-            </button>
-
-            <div id="answer"></div>
-
-        </div>
-
-        <div class="footer">
-            Jeevandhara © 2026
+        <!-- Floating AI Chatbot Widget -->
+        <div class="chatbot-wrapper" id="chatbot-wrapper">
+            <!-- Collapsed state bubble -->
+            <div class="chatbot-collapsed" id="chatbot-collapsed" onclick="toggleChatWindow(true)">
+                <div class="chatbot-hover-badge">Hi Farmer 👋 How can I help you?</div>
+                <button class="chatbot-trigger-btn">💬</button>
+            </div>
+            
+            <!-- Open state window -->
+            <div class="chatbot-window" id="chatbot-window" style="display: none;">
+                <!-- Header -->
+                <div class="chatbot-header">
+                    <div class="chatbot-header-info">
+                        <div class="chatbot-header-avatar">🤖</div>
+                        <div class="chatbot-header-title">
+                            <h4>Jeevandhara AI</h4>
+                            <span>Online</span>
+                        </div>
+                    </div>
+                    <div class="chatbot-header-actions">
+                        <button class="chatbot-header-action-btn" onclick="toggleChatWindow(false)" title="Minimize">➖</button>
+                        <button class="chatbot-header-action-btn" onclick="toggleChatWindow(false)" title="Close" style="font-weight: bold;">✕</button>
+                    </div>
+                </div>
+                
+                <!-- Chat History -->
+                <div class="chatbot-messages" id="chatbot-messages">
+                </div>
+                
+                <!-- Input bar -->
+                <form id="chatbot-form" onsubmit="event.preventDefault(); sendChatMessage();" class="chatbot-input-bar">
+                    <input type="text" id="chatbot-input-field" class="chatbot-input" placeholder="Type your question..." autocomplete="off">
+                    <button type="submit" class="chatbot-send-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
 
     </div>
 
+    <!-- Notification Toast Container -->
+    <div class="toast-container" id="toast-container"></div>
+
     <script src="dashboard.js"></script>
-
 </body>
-
 </html>

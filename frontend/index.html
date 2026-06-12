@@ -1,28 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Jeevandhara</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeevandhara - AI Powered Government Scheme Recommendation System</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container center">
+    <div class="split-layout">
+        
+        <!-- Left Side: Visual Farmer Graphic & Badges -->
+        <div class="split-left">
+            <div class="left-brand">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                </svg>
+                Jeevandhara
+            </div>
+            
+            <div class="left-content">
+                <h1>Cultivating a Smarter Future for Farmers</h1>
+                <p>Jeevandhara leverages artificial intelligence to analyze your land size, crop choices, age, and income to match you with matching government benefits and subsidies.</p>
+                
+                <div class="left-features-list">
+                    <div class="left-feature-item">
+                        <div class="left-feature-icon">✓</div>
+                        <div class="left-feature-text">
+                            <h3>Instant Profiling</h3>
+                            <p>Enter your profile details to see all eligible agricultural programs.</p>
+                        </div>
+                    </div>
+                    <div class="left-feature-item">
+                        <div class="left-feature-icon">✓</div>
+                        <div class="left-feature-text">
+                            <h3>AI Farmer Assistant</h3>
+                            <p>Ask our bilingual smart chatbot any doubts about applications and benefits.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="left-footer">
+                Ministry of Agriculture Nodal Initiative &copy; 2026. All rights reserved.
+            </div>
+        </div>
+        
+        <!-- Right Side: SaaS CTAs & Core Features -->
+        <div class="split-right">
+            <!-- Theme Toggle & Help Header -->
+            <div class="right-header">
+                <div class="theme-toggle-container">
+                    <button class="theme-switch" id="theme-btn" aria-label="Toggle Theme">
+                        🌙
+                    </button>
+                </div>
+            </div>
+            
+            <div class="right-content">
+                <span class="logo-main">🌾</span>
+                <h2>Welcome to <span>Jeevandhara</span></h2>
+                <p class="subtitle">AI Powered Government Scheme Recommendation System for Farmers</p>
+                
+                <div class="landing-ctas">
+                    <a href="login.html" class="btn btn-primary">
+                        <span>Login to Dashboard</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="register.html" class="btn btn-secondary">Create Farmer Account</a>
+                </div>
+                
+                <!-- Features Grid Preview -->
+                <div class="features-preview">
+                    <h4>Core Platform Features</h4>
+                    <div class="features-grid">
+                        <div class="feature-mini-card">
+                            <h5>📜 Schemes Match</h5>
+                            <p>Personalized matches across 17+ schemes.</p>
+                        </div>
+                        <div class="feature-mini-card">
+                            <h5>🤖 AI Chatbot</h5>
+                            <p>Get answers in real time about eligibility.</p>
+                        </div>
+                        <div class="feature-mini-card">
+                            <h5>📊 Profile Score</h5>
+                            <p>Track benefits matched to your profile.</p>
+                        </div>
+                        <div class="feature-mini-card">
+                            <h5>🖥️ Modern Portal</h5>
+                            <p>Responsive access on mobile, tablet & PC.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Quick Links Footer -->
+            <div class="right-footer-links">
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#help">Help Center</a>
+                <a href="#privacy">Privacy Policy</a>
+            </div>
+        </div>
+        
+    </div>
 
-    <h1>🌾 Jeevandhara</h1>
-
-    <p>
-        Empowering Farmers Through Government Schemes
-    </p>
-
-    <a href="register.html">
-        <button>Register</button>
-    </a>
-
-    <a href="login.html">
-        <button>Login</button>
-    </a>
-
-</div>
-
+    <!-- Script to handle session checks and theme toggles -->
+    <script src="index.js"></script>
 </body>
 </html>

@@ -9,14 +9,20 @@ Jeevandhara is an intelligent platform designed to bridge the information gap be
 
 *   **Farmer Profile Management**: Secure registration and login to capture demographic, income, and landholding data.
 *   **Intelligent Recommendations**: Automatic calculation of eligibility based on user profile (age, annual income, land size) compared against scheme criteria.
-*   **AI Chatbot Assistant**: Natural language conversation interface powered by RAG to answer queries specifically about scheme documents, keeping the answers simple and concise.
-*   **Comprehensive Scheme Scrapers**: Loaded with structural scheme profiles for APY (Atal Pension Yojana), PM-Kisan, KCC (Kisan Credit Card), and more.
+*   **Redesigned AI Chatbot Assistant**: A modern, ChatGPT-like conversational experience tailored for farmers:
+    *   **Natural Conversation**: Supports continuous, contextual follow-up questions.
+    *   **Contextual Follow-up Chips**: Dynamically displays 2–3 smart suggestions (e.g. *Who is eligible?*, *Required documents?*, *How to apply?*) after answers are received.
+    *   **Session Persistence**: Conversation history remains intact across page refreshes during the session.
+    *   **Typing Indicator**: Real-time `"AI is typing..."` animation with bouncing dots while generating answers.
+    *   **Timestamps**: Elegant timestamps on every message bubble.
+    *   **Responsive Mobile Layout**: Automatically scales to almost full screen on mobile devices.
+*   **Comprehensive Scheme Database**: Loaded with structural scheme profiles for APY (Atal Pension Yojana), PM-Kisan, KCC (Kisan Credit Card), and more.
 
 ---
 
 ## 🛠️ Technology Stack
 
-*   **Frontend**: HTML5, CSS3 (Custom styling with rich aesthetics), Vanilla JavaScript
+*   **Frontend**: HTML5, CSS3 (Custom styling with rich aesthetics, glassmorphism, pulse, and bounce animations), Vanilla JavaScript
 *   **Backend**: Python, FastAPI
 *   **Database**: SQLite (SQL relational storage for farmer accounts and chat histories)
 *   **Vector Database**: ChromaDB (stores embeddings of scheme documents)
@@ -106,16 +112,10 @@ Ensure Ollama is running on your machine:
 | :--- | :--- | :--- |
 | `/` | `GET` | Backend status check |
 | `/register` | `POST` | Registers a new farmer user |
-| `/login` | `POST` | Authenicates farmer credentials |
+| `/login` | `POST` | Authenticates farmer credentials |
 | `/profile/{user_id}` | `GET` | Retrieves profile statistics for a farmer |
 | `/recommend/{user_id}` | `GET` | Evaluates scheme matching for a farmer |
 | `/dashboard/{user_id}` | `GET` | Unified response containing profile & matches |
 | `/ask/{user_id}` | `POST` | Submits a query to the Jeevandhara RAG AI Chatbot |
 | `/chat-history/{user_id}` | `GET` | Retrieves conversational history logs |
 | `/farmers` | `GET` | Internal debugging: dumps list of registered users |
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to fork this project and submit a Pull Request.
