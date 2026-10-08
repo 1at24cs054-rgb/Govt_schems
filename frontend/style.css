@@ -250,6 +250,7 @@ a:hover {
 .split-left {
   flex: 1.1;
   position: relative;
+  animation: landingPanelFromLeft 700ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
   background: linear-gradient(135deg, rgba(46, 125, 50, 0.85), rgba(67, 160, 71, 0.7)), 
               url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1470&auto=format&fit=crop') no-repeat center center/cover;
   display: flex;
@@ -280,6 +281,7 @@ a:hover {
   font-weight: 800;
   letter-spacing: 0.5px;
   z-index: 10;
+  animation: landingReveal 600ms 120ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 
 .left-brand svg {
@@ -291,6 +293,7 @@ a:hover {
 .left-content {
   z-index: 10;
   max-width: 520px;
+  animation: landingReveal 650ms 220ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 
 .left-content h1 {
@@ -326,6 +329,11 @@ a:hover {
   border-radius: var(--radius-md);
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: var(--transition);
+  animation: landingReveal 550ms 380ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.left-feature-item:nth-child(2) {
+  animation-delay: 500ms;
 }
 
 .left-feature-item:hover {
@@ -362,10 +370,12 @@ a:hover {
   z-index: 10;
   font-size: 13px;
   opacity: 0.7;
+  animation: landingReveal 550ms 500ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 
 .split-right {
   flex: 0.9;
+  animation: landingPanelFromRight 700ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
   background-color: var(--bg-card);
   display: flex;
   flex-direction: column;
@@ -382,6 +392,7 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 20px;
+  animation: landingReveal 550ms 180ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 
 .right-content {
@@ -402,6 +413,7 @@ a:hover {
   font-weight: 800;
   margin-bottom: 8px;
   letter-spacing: -0.5px;
+  animation: landingReveal 550ms 180ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 
 .right-content h2 span {
@@ -412,6 +424,7 @@ a:hover {
   color: var(--text-sub);
   font-size: 16px;
   margin-bottom: 35px;
+  animation: landingReveal 550ms 260ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 
 .landing-ctas {
@@ -419,6 +432,7 @@ a:hover {
   flex-direction: column;
   gap: 15px;
   margin-bottom: 40px;
+  animation: landingReveal 550ms 340ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 
 .landing-ctas .btn {
@@ -429,6 +443,7 @@ a:hover {
 /* Features grid details for Landing Page */
 .features-preview {
   margin-top: 40px;
+  animation: landingReveal 550ms 420ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 
 .features-preview h4 {
@@ -451,12 +466,26 @@ a:hover {
   border-radius: var(--radius-md);
   padding: 16px;
   transition: var(--transition);
+  animation: landingReveal 500ms 520ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.feature-mini-card:nth-child(2) {
+  animation-delay: 590ms;
+}
+
+.feature-mini-card:nth-child(3) {
+  animation-delay: 660ms;
+}
+
+.feature-mini-card:nth-child(4) {
+  animation-delay: 730ms;
 }
 
 .feature-mini-card:hover {
   border-color: var(--primary);
   background: var(--bg-card);
   box-shadow: 0 4px 12px var(--shadow);
+  transform: translateY(-3px);
 }
 
 .feature-mini-card h5 {
@@ -478,6 +507,7 @@ a:hover {
   justify-content: space-between;
   font-size: 13px;
   color: var(--text-sub);
+  animation: landingReveal 550ms 520ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 
 .right-footer-links a {
@@ -1624,6 +1654,21 @@ body.dark-mode .chat-chip:hover {
 }
 
 /* Keyframes animations */
+@keyframes landingPanelFromLeft {
+  from { opacity: 0; transform: translateX(-18px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes landingPanelFromRight {
+  from { opacity: 0; transform: translateX(18px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes landingReveal {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
@@ -1695,6 +1740,29 @@ body.dark-mode .chat-chip:hover {
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .split-left,
+  .split-right,
+  .left-brand,
+  .left-content,
+  .left-feature-item,
+  .left-footer,
+  .right-header,
+  .right-content h2,
+  .right-content .subtitle,
+  .landing-ctas,
+  .features-preview,
+  .feature-mini-card,
+  .right-footer-links,
+  .logo-main {
+    animation: none;
+  }
+
+  .feature-mini-card:hover {
+    transform: none;
+  }
+}
+
 /* Mobile responsive media queries */
 @media (max-width: 1024px) {
   .split-left {
@@ -1755,6 +1823,14 @@ body.dark-mode .chat-chip:hover {
 }
 
 @media (max-width: 480px) {
+  .right-footer-links {
+    position: static;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 18px;
+    margin: 32px auto 0;
+  }
+
   .right-content h2 {
     font-size: 28px;
   }
